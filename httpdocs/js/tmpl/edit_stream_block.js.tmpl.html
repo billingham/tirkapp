@@ -1,0 +1,27 @@
+<h3><%= details.name %></h3>
+<% if(details.type === 'search'){ %>
+<!--p>
+  <label for="new_search_term">Search Term</label>
+  <input type="text" id="search_term" name="search_term" value="<%= details.name %>" />
+</p-->
+<% } %>
+<div id="color_select">
+  <% for ( var i = 0; i < colors.length; i++ ) { %>
+    <span style="background-color:<%= colors[i].bgcolor %>;color:<%= colors[i].color %>;"><input type="radio" name="new_color" value="<%= i %>" <% if ( i == selected ) { %>checked="checked"<% } %>/>A</span>
+
+  <% } %>
+</div>
+<input type="hidden" id="stream_key" name="stream_key" value="<%= details.key %>" />
+<p class="buttons">
+  <button id="save"><img src="http://tirkapp.com/img/icons/sanscons/check.gif" />Save</button>
+  <button id="cancel"><img src="http://tirkapp.com/img/icons/sanscons/bstop.gif" />Cancel</button>
+</p>
+<p class="buttons history">
+  <button id="history"><img src="http://tirkapp.com/img/icons/sanscons/trash.gif" />Clear History</button>
+</p>
+<% if(details.custom){ %>
+  <p class="buttons delete">
+    <button id="delete"><img src="http://tirkapp.com/img/icons/sanscons/alert.gif" />Delete</button>
+  </p>
+<% } %>
+ 

@@ -1,0 +1,16 @@
+<h3>Settings</h3>
+<% for ( var i in hash) { %>
+  <p class="settingsline">
+    <% if (hash[i].type === 'int') { %>
+      <label for="<%= i %>"><%= hash[i].label %></label>
+      <input class="settings" type="text" id="<%= i %>" name="<%= i %>" value="<%= hash[i].value %>" />
+    <% }else if(hash[i].type === 'bool') { %>
+      <label for="<%= i %>"><%= hash[i].label %></label>
+      <input class="settings" type="checkbox" id="<%= i %>" name="<%= i %>" <% if( hash[i].value ){ %> checked="checked" <% } %> value="1" />
+    <% } %>
+  </p>
+<% } %>
+<p class="buttons">
+  <button id="save"><img src="http://tirkapp.com/img/icons/sanscons/check.gif" />Save</button>
+  <button id="cancel"><img src="http://tirkapp.com/img/icons/sanscons/bstop.gif" />Cancel</button>
+</p>

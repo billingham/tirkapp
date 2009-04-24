@@ -1,0 +1,13 @@
+<p id="<%= id %>" class="entry new <%= key %> msg">
+  <img src="<%=avatar%>" width="14" height="14" class="avatar"/>
+  <span class="stream <%= key %>"></span>
+  <img src="http://tirkapp.com/img/icons/sanscons/star.gif" width="16" height="16" class="action"/>
+  <img src="http://tirkapp.com/img/icons/sanscons/loop.gif" width="16" height="16" class="action"/>
+  <img src="http://tirkapp.com/img/icons/sanscons/undo.gif" width="16" height="16" class="action"/>
+  <span class="handle">(<span class="username user link"><%= handle %></span>)</span>
+
+  <span class="content">
+    <span class="message_body"><%= TIRK.display.formatMessageBody(content) %></span>
+  </span>
+  <abbr title="<%= time %>"><%= time %></abbr>
+</p> 

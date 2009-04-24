@@ -1,0 +1,11 @@
+<ul>
+  <% for ( i in streams ) { %>
+    <li id="<%= i %>" style="background-color:<%= streams[i].style.bgcolor %>;color:<%= streams[i].style.color %>">
+      <span class="name"><%= streams[i].name %></span>
+      <% if(streams[i].ishash) { %>
+        <input type="checkbox" />
+      <% } %>
+      <span class="count"></span>
+    </li>
+  <% } %>
+</ul> 

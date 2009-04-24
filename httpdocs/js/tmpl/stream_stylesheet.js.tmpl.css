@@ -1,0 +1,24 @@
+#activity p span.<%=key%>{
+    background-color:<%=style.bgcolor%>;
+}
+body.<%=key%> p.entry{
+    display:none;
+}
+body.<%=key%> p.<%=key%>{
+    display:block;
+}
+body.<%=key%> div#overview{
+  background-color:<%=style.bgcolor%>;
+  border-color:<%=style.color%>;
+}
+body.<%=key%> div#overview div.inner{
+  border-color:<%=style.color%>;
+}
+body.<%=key%> div#streams ul li#<%=key%>{
+  background-image:url(http://tirkapp.com/img/icons/sanscons/arrow2_e.gif);
+  background-repeat:no-repeat;
+  background-position:-7px 0;
+}
+
+
+

@@ -1,0 +1,14 @@
+<h3>Add a Stream</h3>
+<p>
+  <label for="new_search_term">New Search Term</label>
+  <input type="text" id="new_search_term" name="new_search_term" value="<%= value %>" />
+</p>
+<div id="color_select">
+  <% for ( var i = 0; i < colors.length; i++ ) { %>
+    <span style="background-color:<%= colors[i].bgcolor %>;color:<%= colors[i].color %>;"><input type="radio" name="new_color" value="<%= i %>" <% if ( i === randnum) { %>checked="checked"<% } %>/>A</span>
+  <% } %>
+</div>
+<p class="buttons">
+  <button id="save"><img src="http://tirkapp.com/img/icons/sanscons/add.gif" />Add</button>
+  <button id="cancel"><img src="http://tirkapp.com/img/icons/sanscons/bstop.gif" />Cancel</button>
+</p>
