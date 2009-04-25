@@ -14,7 +14,7 @@ body{
   left:0;
   position:relative;
   height:100%;
-  background:#ddd url(http://tirkapp.com/img/tirkapp.png) no-repeat 200px 20px;
+  background:#ddd url(/img/tirkapp.png) no-repeat 200px 20px;
 }
 h1{
   position:absolute;
@@ -34,12 +34,12 @@ button{
   border-right:1px solid #dbdbdb;
   border-bottom:1px solid #b4b4b4;
   border-left:1px solid #acacac;
-  background:#dddddd url(http://tirkapp.com/img/line_gradient_bottom.png) repeat-x left bottom;
+  background:#dddddd url(/img/line_gradient_bottom.png) repeat-x left bottom;
   border-top:1px solid #777;
   border-right:1px solid #7c7c7c;
   border-bottom:1px solid #7f7f7f;
   border-left:1px solid #666;
-  background:#888888 url(http://tirkapp.com/img/line_gradient_bottom.png) repeat-x left bottom;
+  background:#888888 url(/img/line_gradient_bottom.png) repeat-x left bottom;
   padding:2px;
   color: #ffffff;
   font-family:'Andale Mono',Monaco,Arial,sans-serif;
@@ -50,7 +50,6 @@ button{
 }
   button img{
     vertical-align:bottom;
-    background-image: url(http://tirkapp.com/img/icons/sanscons/xbg_circle.gif);
     background-repeat: no-repeat;
     background-color:transparent;
     margin:0 1px;
@@ -68,7 +67,7 @@ div#main{
   left:0;
   bottom:60px;
   right:150px;
-  background:#fff url(http://tirkapp.com/img/tirkapp.png) no-repeat 200px 20px;
+  background:#fff url(/img/tirkapp.png) no-repeat 200px 20px;
   border-right:1px solid #bbb;
   border-bottom:1px solid #bbb;
   overflow:auto;
@@ -269,7 +268,7 @@ div#action{
     border:1px solid #000;
   }
   div#action input#message.loading{
-    background:#fff url(http://tirkapp.com/img/update_loading.png) no-repeat 0 0;
+    background:#fff url(/img/update_loading.png) no-repeat 0 0;
   }
   div#action form button{
     font-size:120%;
@@ -307,7 +306,7 @@ div#sidebar{
     list-style-position:inside;
     margin:3px;
     padding:6px 10px;
-    background:#fff url(http://tirkapp.com/img/line_gradient_bottom.png) repeat-x left bottom;
+    background:#fff url(/img/line_gradient_bottom.png) repeat-x left bottom;
     /*border-bottom:1px solid #bbb;*/
     border:1px solid #bbb;
     -moz-border-radius: 8px;
@@ -320,7 +319,7 @@ div#sidebar{
     cursor:pointer;
   }
   div#streams ul li.loader{
-    background:#fff url(http://tirkapp.com/img/arrow_loader.gif) no-repeat -5px -5px !important;
+    background:#fff url(/img/arrow_loader.gif) no-repeat -5px -5px !important;
     color:red !important;
   }
   div#streams ul li input{
