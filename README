@@ -1,0 +1,11 @@
+TirkApp is a Twitter Client because if there is anything in the world every one needs its another twitter client.
+
+I made this because it was the way I wanted to read twitter and it made it easier for me to find stuff that interests me.
+
+The things that make TirkApp stand apart is
+1) That it is top->down/past->present display which is what everyone
+thought was the right way to read untill twitter convinced everyone otherwise.
+2) It runs in a browser.
+3) It pushes as much logic to the client as possible.
+4) It allows you to add search results to your main feed view no more switching between panes or tabs
+5) I like it
